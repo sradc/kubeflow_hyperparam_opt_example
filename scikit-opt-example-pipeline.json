@@ -1,0 +1,1841 @@
+{
+  "pipelineSpec": {
+    "components": {
+      "comp-evalute-model": {
+        "executorLabel": "exec-evalute-model",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-10": {
+        "executorLabel": "exec-evalute-model-10",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-11": {
+        "executorLabel": "exec-evalute-model-11",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-12": {
+        "executorLabel": "exec-evalute-model-12",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-13": {
+        "executorLabel": "exec-evalute-model-13",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-14": {
+        "executorLabel": "exec-evalute-model-14",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-15": {
+        "executorLabel": "exec-evalute-model-15",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-16": {
+        "executorLabel": "exec-evalute-model-16",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-2": {
+        "executorLabel": "exec-evalute-model-2",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-3": {
+        "executorLabel": "exec-evalute-model-3",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-4": {
+        "executorLabel": "exec-evalute-model-4",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-5": {
+        "executorLabel": "exec-evalute-model-5",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-6": {
+        "executorLabel": "exec-evalute-model-6",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-7": {
+        "executorLabel": "exec-evalute-model-7",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-8": {
+        "executorLabel": "exec-evalute-model-8",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-evalute-model-9": {
+        "executorLabel": "exec-evalute-model-9",
+        "inputDefinitions": {
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "idx": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "DOUBLE"
+            }
+          }
+        }
+      },
+      "comp-initialize": {
+        "executorLabel": "exec-initialize",
+        "inputDefinitions": {
+          "parameters": {
+            "n_points": {
+              "type": "INT"
+            },
+            "random_state": {
+              "type": "INT"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "artifacts": {
+            "optimizer_out": {
+              "artifactType": {
+                "schemaTitle": "system.Artifact",
+                "schemaVersion": "0.0.1"
+              }
+            }
+          },
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            }
+          }
+        }
+      },
+      "comp-update-optimizer": {
+        "executorLabel": "exec-update-optimizer",
+        "inputDefinitions": {
+          "artifacts": {
+            "optimizer_in": {
+              "artifactType": {
+                "schemaTitle": "system.Artifact",
+                "schemaVersion": "0.0.1"
+              }
+            }
+          },
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "scores_0": {
+              "type": "DOUBLE"
+            },
+            "scores_1": {
+              "type": "DOUBLE"
+            },
+            "scores_2": {
+              "type": "DOUBLE"
+            },
+            "scores_3": {
+              "type": "DOUBLE"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "artifacts": {
+            "optimizer_out": {
+              "artifactType": {
+                "schemaTitle": "system.Artifact",
+                "schemaVersion": "0.0.1"
+              }
+            }
+          },
+          "parameters": {
+            "best_score_found": {
+              "type": "DOUBLE"
+            },
+            "hyperparam_vals": {
+              "type": "STRING"
+            }
+          }
+        }
+      },
+      "comp-update-optimizer-2": {
+        "executorLabel": "exec-update-optimizer-2",
+        "inputDefinitions": {
+          "artifacts": {
+            "optimizer_in": {
+              "artifactType": {
+                "schemaTitle": "system.Artifact",
+                "schemaVersion": "0.0.1"
+              }
+            }
+          },
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "scores_0": {
+              "type": "DOUBLE"
+            },
+            "scores_1": {
+              "type": "DOUBLE"
+            },
+            "scores_2": {
+              "type": "DOUBLE"
+            },
+            "scores_3": {
+              "type": "DOUBLE"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "artifacts": {
+            "optimizer_out": {
+              "artifactType": {
+                "schemaTitle": "system.Artifact",
+                "schemaVersion": "0.0.1"
+              }
+            }
+          },
+          "parameters": {
+            "best_score_found": {
+              "type": "DOUBLE"
+            },
+            "hyperparam_vals": {
+              "type": "STRING"
+            }
+          }
+        }
+      },
+      "comp-update-optimizer-3": {
+        "executorLabel": "exec-update-optimizer-3",
+        "inputDefinitions": {
+          "artifacts": {
+            "optimizer_in": {
+              "artifactType": {
+                "schemaTitle": "system.Artifact",
+                "schemaVersion": "0.0.1"
+              }
+            }
+          },
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "scores_0": {
+              "type": "DOUBLE"
+            },
+            "scores_1": {
+              "type": "DOUBLE"
+            },
+            "scores_2": {
+              "type": "DOUBLE"
+            },
+            "scores_3": {
+              "type": "DOUBLE"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "artifacts": {
+            "optimizer_out": {
+              "artifactType": {
+                "schemaTitle": "system.Artifact",
+                "schemaVersion": "0.0.1"
+              }
+            }
+          },
+          "parameters": {
+            "best_score_found": {
+              "type": "DOUBLE"
+            },
+            "hyperparam_vals": {
+              "type": "STRING"
+            }
+          }
+        }
+      },
+      "comp-update-optimizer-4": {
+        "executorLabel": "exec-update-optimizer-4",
+        "inputDefinitions": {
+          "artifacts": {
+            "optimizer_in": {
+              "artifactType": {
+                "schemaTitle": "system.Artifact",
+                "schemaVersion": "0.0.1"
+              }
+            }
+          },
+          "parameters": {
+            "hyperparam_vals": {
+              "type": "STRING"
+            },
+            "scores_0": {
+              "type": "DOUBLE"
+            },
+            "scores_1": {
+              "type": "DOUBLE"
+            },
+            "scores_2": {
+              "type": "DOUBLE"
+            },
+            "scores_3": {
+              "type": "DOUBLE"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "artifacts": {
+            "optimizer_out": {
+              "artifactType": {
+                "schemaTitle": "system.Artifact",
+                "schemaVersion": "0.0.1"
+              }
+            }
+          },
+          "parameters": {
+            "best_score_found": {
+              "type": "DOUBLE"
+            },
+            "hyperparam_vals": {
+              "type": "STRING"
+            }
+          }
+        }
+      }
+    },
+    "deploymentSpec": {
+      "executors": {
+        "exec-evalute-model": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-10": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-11": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-12": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-13": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-14": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-15": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-16": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-2": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-3": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-4": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-5": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-6": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-7": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-8": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-evalute-model-9": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "evalute_model"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef evalute_model(\n    hyperparam_vals: str,\n    idx: int,\n) -> float:\n    \"\"\"Evaluate a model with the given hyperparameter values.\"\"\"\n    import json\n\n    from skopt.benchmarks import branin\n\n    params = json.loads(hyperparam_vals)[idx]\n    score = float(branin(params))\n    return score\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-initialize": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "initialize"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef initialize(\n    random_state: int,\n    n_points: int,\n    optimizer_out: Output[Artifact],\n) -> NamedTuple(\"Outputs\", [(\"hyperparam_vals\", str)]):\n    \"\"\"Initialize the optimizer and get the first set of hyperparameter values to evaluate.\"\"\"\n    import json\n\n    import dill\n    from skopt import Optimizer, space\n\n    optimizer = Optimizer(\n        dimensions=[space.Real(-5.0, 10.0), space.Real(0.0, 15.0)],\n        random_state=random_state,\n        base_estimator=\"gp\",\n    )\n    hyperparam_vals = optimizer.ask(n_points=n_points)\n    with open(optimizer_out.path, \"wb\") as f:\n        dill.dump(optimizer, f)\n    return (json.dumps(hyperparam_vals),)\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-update-optimizer": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "update_optimizer"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef update_optimizer(optimizer_in: Input[Artifact], hyperparam_vals: str, scores_0: float, scores_1: float, scores_2: float, scores_3: float, optimizer_out: Output[Artifact]) -> NamedTuple('Outputs', [('hyperparam_vals', str), ('best_score_found', float)]):\n    scores = (scores_0, scores_1, scores_2, scores_3)\n    'Update the optimizer with the results of the previous evaluation \\n    and get the next set of hyperparameter values to evaluate.'\n    import json\n    import dill\n    with open(optimizer_in.path, 'rb') as f:\n        optimizer = dill.load(f)\n    optimizer.tell(json.loads(hyperparam_vals), scores)\n    hyperparam_vals = optimizer.ask(n_points=4)\n    with open(optimizer_out.path, 'wb') as f:\n        dill.dump(optimizer, f)\n    return (json.dumps(hyperparam_vals), min(optimizer.yi))\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-update-optimizer-2": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "update_optimizer"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef update_optimizer(optimizer_in: Input[Artifact], hyperparam_vals: str, scores_0: float, scores_1: float, scores_2: float, scores_3: float, optimizer_out: Output[Artifact]) -> NamedTuple('Outputs', [('hyperparam_vals', str), ('best_score_found', float)]):\n    scores = (scores_0, scores_1, scores_2, scores_3)\n    'Update the optimizer with the results of the previous evaluation \\n    and get the next set of hyperparameter values to evaluate.'\n    import json\n    import dill\n    with open(optimizer_in.path, 'rb') as f:\n        optimizer = dill.load(f)\n    optimizer.tell(json.loads(hyperparam_vals), scores)\n    hyperparam_vals = optimizer.ask(n_points=4)\n    with open(optimizer_out.path, 'wb') as f:\n        dill.dump(optimizer, f)\n    return (json.dumps(hyperparam_vals), min(optimizer.yi))\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-update-optimizer-3": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "update_optimizer"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef update_optimizer(optimizer_in: Input[Artifact], hyperparam_vals: str, scores_0: float, scores_1: float, scores_2: float, scores_3: float, optimizer_out: Output[Artifact]) -> NamedTuple('Outputs', [('hyperparam_vals', str), ('best_score_found', float)]):\n    scores = (scores_0, scores_1, scores_2, scores_3)\n    'Update the optimizer with the results of the previous evaluation \\n    and get the next set of hyperparameter values to evaluate.'\n    import json\n    import dill\n    with open(optimizer_in.path, 'rb') as f:\n        optimizer = dill.load(f)\n    optimizer.tell(json.loads(hyperparam_vals), scores)\n    hyperparam_vals = optimizer.ask(n_points=4)\n    with open(optimizer_out.path, 'wb') as f:\n        dill.dump(optimizer, f)\n    return (json.dumps(hyperparam_vals), min(optimizer.yi))\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        },
+        "exec-update-optimizer-4": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "update_optimizer"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'scikit-optimize==0.9.0' 'dill==0.3.6' 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef update_optimizer(optimizer_in: Input[Artifact], hyperparam_vals: str, scores_0: float, scores_1: float, scores_2: float, scores_3: float, optimizer_out: Output[Artifact]) -> NamedTuple('Outputs', [('hyperparam_vals', str), ('best_score_found', float)]):\n    scores = (scores_0, scores_1, scores_2, scores_3)\n    'Update the optimizer with the results of the previous evaluation \\n    and get the next set of hyperparameter values to evaluate.'\n    import json\n    import dill\n    with open(optimizer_in.path, 'rb') as f:\n        optimizer = dill.load(f)\n    optimizer.tell(json.loads(hyperparam_vals), scores)\n    hyperparam_vals = optimizer.ask(n_points=4)\n    with open(optimizer_out.path, 'wb') as f:\n        dill.dump(optimizer, f)\n    return (json.dumps(hyperparam_vals), min(optimizer.yi))\n\n"
+            ],
+            "image": "python:3.10",
+            "resources": {
+              "cpuLimit": 1.0,
+              "memoryLimit": 8.0
+            }
+          }
+        }
+      }
+    },
+    "pipelineInfo": {
+      "name": "scikit-opt-example-pipeline"
+    },
+    "root": {
+      "dag": {
+        "tasks": {
+          "evalute-model": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model"
+            },
+            "dependentTasks": [
+              "initialize"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "initialize"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "0"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model"
+            }
+          },
+          "evalute-model-10": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-10"
+            },
+            "dependentTasks": [
+              "update-optimizer-2"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer-2"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "1"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-10"
+            }
+          },
+          "evalute-model-11": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-11"
+            },
+            "dependentTasks": [
+              "update-optimizer-2"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer-2"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "2"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-11"
+            }
+          },
+          "evalute-model-12": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-12"
+            },
+            "dependentTasks": [
+              "update-optimizer-2"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer-2"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "3"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-12"
+            }
+          },
+          "evalute-model-13": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-13"
+            },
+            "dependentTasks": [
+              "update-optimizer-3"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer-3"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "0"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-13"
+            }
+          },
+          "evalute-model-14": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-14"
+            },
+            "dependentTasks": [
+              "update-optimizer-3"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer-3"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "1"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-14"
+            }
+          },
+          "evalute-model-15": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-15"
+            },
+            "dependentTasks": [
+              "update-optimizer-3"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer-3"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "2"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-15"
+            }
+          },
+          "evalute-model-16": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-16"
+            },
+            "dependentTasks": [
+              "update-optimizer-3"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer-3"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "3"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-16"
+            }
+          },
+          "evalute-model-2": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-2"
+            },
+            "dependentTasks": [
+              "initialize"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "initialize"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "1"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-2"
+            }
+          },
+          "evalute-model-3": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-3"
+            },
+            "dependentTasks": [
+              "initialize"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "initialize"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "2"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-3"
+            }
+          },
+          "evalute-model-4": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-4"
+            },
+            "dependentTasks": [
+              "initialize"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "initialize"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "3"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-4"
+            }
+          },
+          "evalute-model-5": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-5"
+            },
+            "dependentTasks": [
+              "update-optimizer"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "0"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-5"
+            }
+          },
+          "evalute-model-6": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-6"
+            },
+            "dependentTasks": [
+              "update-optimizer"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "1"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-6"
+            }
+          },
+          "evalute-model-7": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-7"
+            },
+            "dependentTasks": [
+              "update-optimizer"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "2"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-7"
+            }
+          },
+          "evalute-model-8": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-8"
+            },
+            "dependentTasks": [
+              "update-optimizer"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "3"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-8"
+            }
+          },
+          "evalute-model-9": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-evalute-model-9"
+            },
+            "dependentTasks": [
+              "update-optimizer-2"
+            ],
+            "inputs": {
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer-2"
+                  }
+                },
+                "idx": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "0"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "evalute-model-9"
+            }
+          },
+          "initialize": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-initialize"
+            },
+            "inputs": {
+              "parameters": {
+                "n_points": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "intValue": "4"
+                    }
+                  }
+                },
+                "random_state": {
+                  "componentInputParameter": "random_state"
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "initialize"
+            }
+          },
+          "update-optimizer": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-update-optimizer"
+            },
+            "dependentTasks": [
+              "evalute-model",
+              "evalute-model-2",
+              "evalute-model-3",
+              "evalute-model-4",
+              "initialize"
+            ],
+            "inputs": {
+              "artifacts": {
+                "optimizer_in": {
+                  "taskOutputArtifact": {
+                    "outputArtifactKey": "optimizer_out",
+                    "producerTask": "initialize"
+                  }
+                }
+              },
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "initialize"
+                  }
+                },
+                "scores_0": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model"
+                  }
+                },
+                "scores_1": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-2"
+                  }
+                },
+                "scores_2": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-3"
+                  }
+                },
+                "scores_3": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-4"
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "update-optimizer"
+            }
+          },
+          "update-optimizer-2": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-update-optimizer-2"
+            },
+            "dependentTasks": [
+              "evalute-model-5",
+              "evalute-model-6",
+              "evalute-model-7",
+              "evalute-model-8",
+              "update-optimizer"
+            ],
+            "inputs": {
+              "artifacts": {
+                "optimizer_in": {
+                  "taskOutputArtifact": {
+                    "outputArtifactKey": "optimizer_out",
+                    "producerTask": "update-optimizer"
+                  }
+                }
+              },
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer"
+                  }
+                },
+                "scores_0": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-5"
+                  }
+                },
+                "scores_1": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-6"
+                  }
+                },
+                "scores_2": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-7"
+                  }
+                },
+                "scores_3": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-8"
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "update-optimizer-2"
+            }
+          },
+          "update-optimizer-3": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-update-optimizer-3"
+            },
+            "dependentTasks": [
+              "evalute-model-10",
+              "evalute-model-11",
+              "evalute-model-12",
+              "evalute-model-9",
+              "update-optimizer-2"
+            ],
+            "inputs": {
+              "artifacts": {
+                "optimizer_in": {
+                  "taskOutputArtifact": {
+                    "outputArtifactKey": "optimizer_out",
+                    "producerTask": "update-optimizer-2"
+                  }
+                }
+              },
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer-2"
+                  }
+                },
+                "scores_0": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-9"
+                  }
+                },
+                "scores_1": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-10"
+                  }
+                },
+                "scores_2": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-11"
+                  }
+                },
+                "scores_3": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-12"
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "update-optimizer-3"
+            }
+          },
+          "update-optimizer-4": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-update-optimizer-4"
+            },
+            "dependentTasks": [
+              "evalute-model-13",
+              "evalute-model-14",
+              "evalute-model-15",
+              "evalute-model-16",
+              "update-optimizer-3"
+            ],
+            "inputs": {
+              "artifacts": {
+                "optimizer_in": {
+                  "taskOutputArtifact": {
+                    "outputArtifactKey": "optimizer_out",
+                    "producerTask": "update-optimizer-3"
+                  }
+                }
+              },
+              "parameters": {
+                "hyperparam_vals": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "hyperparam_vals",
+                    "producerTask": "update-optimizer-3"
+                  }
+                },
+                "scores_0": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-13"
+                  }
+                },
+                "scores_1": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-14"
+                  }
+                },
+                "scores_2": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-15"
+                  }
+                },
+                "scores_3": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "evalute-model-16"
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "update-optimizer-4"
+            }
+          }
+        }
+      },
+      "inputDefinitions": {
+        "parameters": {
+          "random_state": {
+            "type": "INT"
+          }
+        }
+      }
+    },
+    "schemaVersion": "2.0.0",
+    "sdkVersion": "kfp-1.8.16"
+  },
+  "runtimeConfig": {
+    "gcsOutputDirectory": "gs://brt_opm/pipeline_root/",
+    "parameters": {
+      "random_state": {
+        "intValue": "1"
+      }
+    }
+  }
+}
