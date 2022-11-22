@@ -1,0 +1,280 @@
+{
+  "pipelineSpec": {
+    "components": {
+      "comp-my-aggregator-op": {
+        "executorLabel": "exec-my-aggregator-op",
+        "inputDefinitions": {
+          "parameters": {
+            "args_0": {
+              "type": "STRING"
+            },
+            "args_1": {
+              "type": "STRING"
+            },
+            "args_2": {
+              "type": "STRING"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "STRING"
+            }
+          }
+        }
+      },
+      "comp-my-transformer-op": {
+        "executorLabel": "exec-my-transformer-op",
+        "inputDefinitions": {
+          "parameters": {
+            "item": {
+              "type": "STRING"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "STRING"
+            }
+          }
+        }
+      },
+      "comp-my-transformer-op-2": {
+        "executorLabel": "exec-my-transformer-op-2",
+        "inputDefinitions": {
+          "parameters": {
+            "item": {
+              "type": "STRING"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "STRING"
+            }
+          }
+        }
+      },
+      "comp-my-transformer-op-3": {
+        "executorLabel": "exec-my-transformer-op-3",
+        "inputDefinitions": {
+          "parameters": {
+            "item": {
+              "type": "STRING"
+            }
+          }
+        },
+        "outputDefinitions": {
+          "parameters": {
+            "Output": {
+              "type": "STRING"
+            }
+          }
+        }
+      }
+    },
+    "deploymentSpec": {
+      "executors": {
+        "exec-my-aggregator-op": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "my_aggregator_op"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef my_aggregator_op(args_0: str, args_1: str, args_2: str) -> str:\n    args = (args_0, args_1, args_2)\n    return ' '.join(args)\n\n"
+            ],
+            "image": "python:3.7"
+          }
+        },
+        "exec-my-transformer-op": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "my_transformer_op"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef my_transformer_op(item: str) -> str:\n    return item + \"_transformed\"\n\n"
+            ],
+            "image": "python:3.7"
+          }
+        },
+        "exec-my-transformer-op-2": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "my_transformer_op"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef my_transformer_op(item: str) -> str:\n    return item + \"_transformed\"\n\n"
+            ],
+            "image": "python:3.7"
+          }
+        },
+        "exec-my-transformer-op-3": {
+          "container": {
+            "args": [
+              "--executor_input",
+              "{{$}}",
+              "--function_to_execute",
+              "my_transformer_op"
+            ],
+            "command": [
+              "sh",
+              "-c",
+              "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet     --no-warn-script-location 'kfp==1.8.16' && \"$0\" \"$@\"\n",
+              "sh",
+              "-ec",
+              "program_path=$(mktemp -d)\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\npython3 -m kfp.v2.components.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+              "\nimport kfp\nfrom kfp.v2 import dsl\nfrom kfp.v2.dsl import *\nfrom typing import *\n\ndef my_transformer_op(item: str) -> str:\n    return item + \"_transformed\"\n\n"
+            ],
+            "image": "python:3.7"
+          }
+        }
+      }
+    },
+    "pipelineInfo": {
+      "name": "aggtest"
+    },
+    "root": {
+      "dag": {
+        "tasks": {
+          "my-aggregator-op": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-my-aggregator-op"
+            },
+            "dependentTasks": [
+              "my-transformer-op",
+              "my-transformer-op-2",
+              "my-transformer-op-3"
+            ],
+            "inputs": {
+              "parameters": {
+                "args_0": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "my-transformer-op"
+                  }
+                },
+                "args_1": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "my-transformer-op-2"
+                  }
+                },
+                "args_2": {
+                  "taskOutputParameter": {
+                    "outputParameterKey": "Output",
+                    "producerTask": "my-transformer-op-3"
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "my-aggregator-op"
+            }
+          },
+          "my-transformer-op": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-my-transformer-op"
+            },
+            "inputs": {
+              "parameters": {
+                "item": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "stringValue": "a"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "my-transformer-op"
+            }
+          },
+          "my-transformer-op-2": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-my-transformer-op-2"
+            },
+            "inputs": {
+              "parameters": {
+                "item": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "stringValue": "b"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "my-transformer-op-2"
+            }
+          },
+          "my-transformer-op-3": {
+            "cachingOptions": {
+              "enableCache": true
+            },
+            "componentRef": {
+              "name": "comp-my-transformer-op-3"
+            },
+            "inputs": {
+              "parameters": {
+                "item": {
+                  "runtimeValue": {
+                    "constantValue": {
+                      "stringValue": "c"
+                    }
+                  }
+                }
+              }
+            },
+            "taskInfo": {
+              "name": "my-transformer-op-3"
+            }
+          }
+        }
+      }
+    },
+    "schemaVersion": "2.0.0",
+    "sdkVersion": "kfp-1.8.16"
+  },
+  "runtimeConfig": {}
+}
